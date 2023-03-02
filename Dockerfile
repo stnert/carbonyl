@@ -1,4 +1,4 @@
-FROM debian:bullseye-slim
+FROM debian:11.6-slim
 
 RUN groupadd -r carbonyl && useradd -r -g carbonyl carbonyl && \
     apt-get update && \
